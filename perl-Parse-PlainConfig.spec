@@ -10,7 +10,7 @@ Summary(pl):	Parse::PlainConfig - analizator czysto tekstowych plików konfigurac
 Name:		perl-Parse-PlainConfig
 Version:	1.7a
 Release:	1
-License:	GPL
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}%{pnam}-%{version}.tar.gz
 # Source0-md5:	14138102429479e62fc73590452e8c51
@@ -33,7 +33,6 @@ czytelne dla cz³owieka pliki konfiguracyjne.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
