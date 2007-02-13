@@ -6,7 +6,7 @@
 %define		pdir	Parse
 %define		pnam	PlainConfig
 Summary:	Parse::PlainConfig - parser for plain-text configuration files
-Summary(pl.UTF-8):   Parse::PlainConfig - analizator czysto tekstowych plików konfiguracyjnych
+Summary(pl.UTF-8):	Parse::PlainConfig - analizator czysto tekstowych plików konfiguracyjnych
 Name:		perl-Parse-PlainConfig
 Version:	1.7a
 Release:	1
