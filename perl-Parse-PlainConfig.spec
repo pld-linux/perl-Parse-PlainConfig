@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Parse
 %define		pnam	PlainConfig
+%include	/usr/lib/rpm/macros.perl
 Summary:	Parse::PlainConfig - parser for plain-text configuration files
 Summary(pl.UTF-8):	Parse::PlainConfig - analizator czysto tekstowych plików konfiguracyjnych
 Name:		perl-Parse-PlainConfig
@@ -14,6 +14,7 @@ License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}%{pnam}-%{version}.tar.gz
 # Source0-md5:	14138102429479e62fc73590452e8c51
+URL:		http://search.cpan.org/dist/Parse-PlainConfig/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
