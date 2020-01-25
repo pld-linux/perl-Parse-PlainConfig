@@ -4,7 +4,6 @@
 
 %define		pdir	Parse
 %define		pnam	PlainConfig
-%include	/usr/lib/rpm/macros.perl
 Summary:	Parse::PlainConfig - parser for plain-text configuration files
 Summary(pl.UTF-8):	Parse::PlainConfig - analizator czysto tekstowych plików konfiguracyjnych
 Name:		perl-Parse-PlainConfig
